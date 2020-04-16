@@ -1,0 +1,138 @@
+/*
+Extra small < 576px
+small 576 - 768
+medium 768 - 992
+large 992 - 1200
+extralarge > 1200
+
+max- width
+es - 100%
+s - 540
+md -720
+l - 960
+el - 1140
+*/
+/*Styling background*/
+@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+body{
+    font-family: Arvo,serif;
+    background: url(img/background2.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+#logo{
+    width: 70px;
+    height: auto;
+    margin-right: 35px;
+    padding: 10px 0;
+}
+.navbar-nav li{
+    color: white;
+    font-size: 17px;
+    margin-right: 35px;
+    padding: 10px 0;
+}
+.navbar-nav li:hover{
+    border-bottom: 1px solid #b1f01d;
+    padding-bottom: 9px;
+}
+#home{
+    background-color: transparent;
+    color:white;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 5px;
+    padding: 20%;
+}
+#home h1{
+    margin-bottom: 40px;
+}
+#home h2{
+    margin-bottom: 40px;
+}
+#home .btn{
+    text-align: center;
+    color: cornsilk;
+    background: rgb( 21, 46, 100);
+}
+#home .btn:hover{
+    background: rgba( 21, 46, 100,0.5);
+}
+#logIn:hover{
+    background: rgba( 21, 46, 100,0.5);
+}
+.container{
+    max-width: 1000px;
+}
+#about{
+    color: white;
+    text-align: center;
+    padding: 6%;
+}
+#about h1{
+    margin-bottom: 100px;
+    font-weight: bold;
+    font-size: 50px;
+}
+#about p{
+    font-size: 30px;
+    text-align:left;
+    margin-bottom: 50px;
+}
+#about h2{
+    font-weight: bold;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#about .aboutImage{
+    height: 120px;
+}
+#services{
+    padding-top: 200px;
+}
+#services h1{
+    margin-bottom: 100px;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+#demo{
+    width: 23%;
+    margin:0 auto;
+}
+.carousel-inner .carousel-item img{
+    height: 400px;
+    margin: auto;
+    
+}
+.carousel-caption{
+    position: relative;
+    left: auto;
+    right: auto;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
